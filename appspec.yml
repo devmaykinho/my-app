@@ -1,12 +1,5 @@
 version: 0.0
 os: linux
-files:
-  - source: /app
-    destination: /my-app
-permissions:
-  - object: /
-    pattern: "**"
-    group: root    
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies.sh
