@@ -1,4 +1,4 @@
 #!/bin/bash
 echo starting server
-pwd
+cd ~/
 npm start
